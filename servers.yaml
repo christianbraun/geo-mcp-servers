@@ -946,3 +946,27 @@ servers:
     tags: [catalog, schema-cards, cross-domain, dataset-discovery, geospatial]
     note: "also runs as a public, zero-auth hosted endpoint at https://api.scigantic.com/mcp (Streamable HTTP)"
     added: 2026-08-28
+  - name: LGND MCP Server
+    access: commercial
+    url: https://github.com/EarthLegend/developer_resources/tree/main/mcp
+    description: "Search Earth-embedding collections by text, image chip or coordinates, run inference to create new collections, and inspect chip/cell metadata"
+    category: remote_sensing
+    author: LGND AI
+    official: true
+    vendor_orgs: [EarthLegend]
+    tags: [embeddings, satellite-imagery, geoai, similarity-search]
+    note: "beta; MCP access is gated to paid Developer/Pro/Enterprise plans — the underlying API has a free tier"
+    added: 2026-09-07
+  - name: Geospatial Power Pack (Kiro)
+    access: open
+    url: https://github.com/aws-samples/sample-geospatial-kiro-power-pack
+    description: "19 modular MCP servers with a Kiro hub power — STAC/vector/geocoding connectors, CRS/geometry/raster/point-cloud/3D processing, H3/S2 indexing, and GeoAI embeddings & similarity search over open data on AWS"
+    category: toolkit
+    author: AWS
+    language: Python
+    official: true
+    vendor_orgs: [aws-samples]
+    transport: stdio
+    tags: [kiro, stac, cog, duckdb, embeddings, geoai]
+    note: "bundle — servers install à la carte via uvx; optional credentialed servers cover cloud warehouses (Redshift/Snowflake/BigQuery) & commercial imagery"
+    added: 2026-09-07
