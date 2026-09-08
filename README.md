@@ -29,12 +29,12 @@ Then ask Claude things like *"is there an MCP server for STAC imagery?"* or *"tr
 
 <!-- AUTOGEN:START -->
 
-**89 servers tracked** across 11 categories.
+**91 servers tracked** across 11 categories.
 
 _Health checked 2026-09-03 (active = repo pushed within 12 months): 🟢 active 57 · 🟡 stale 15 · ⚪ hosted 15._
 
 
-_Access: 🟩 open 40 · 🟨 free 2 · 🟦 commercial 41 · 🟥 paywalled 6._
+_Access: 🟩 open 41 · 🟨 free 2 · 🟦 commercial 42 · 🟥 paywalled 6._
 
 ### Categories
 
@@ -42,10 +42,10 @@ _Access: 🟩 open 40 · 🟨 free 2 · 🟦 commercial 41 · 🟥 paywalled 6._
 - [Routing, isochrones & navigation](#routing-isochrones--navigation) (2)
 - [Maps, tiles & commercial platforms](#maps-tiles--commercial-platforms) (17)
 - [Spatial databases & analytics](#spatial-databases--analytics) (3)
-- [Remote sensing, STAC & earth observation](#remote-sensing-stac--earth-observation) (14)
+- [Remote sensing, STAC & earth observation](#remote-sensing-stac--earth-observation) (15)
 - [Weather & climate](#weather--climate) (11)
 - [Desktop & enterprise GIS (QGIS, ArcGIS)](#desktop--enterprise-gis-qgis-arcgis) (9)
-- [General GIS / geoprocessing toolkits](#general-gis--geoprocessing-toolkits) (5)
+- [General GIS / geoprocessing toolkits](#general-gis--geoprocessing-toolkits) (6)
 - [Geospatial data access & catalogs](#geospatial-data-access--catalogs) (2)
 - [Aviation & maritime tracking (ADS-B, AIS)](#aviation--maritime-tracking-ads-b-ais) (5)
 - [Other (IP geolocation, misc)](#other-ip-geolocation-misc) (7)
@@ -115,6 +115,7 @@ _Access: 🟩 open 40 · 🟨 free 2 · 🟦 commercial 41 · 🟥 paywalled 6._
 | [copernicus-mcp](https://github.com/wb1016/copernicus-mcp) | Access ESA Copernicus OData API — search/download Sentinel-1/2/3/5P/6 imagery | Python | wb1016 | community | 🟩 open | 🟢 active |
 | [earthdata-mcp](https://github.com/nasa/earthdata-mcp) | LLM access to NASA Common Metadata Repository — discover/verify/access Earth science datasets | Python | NASA | official | 🟩 open | 🟢 active |
 | [google-earth-engine-mcp](https://github.com/cameronking4/google-earth-engine-mcp) | Query Google Earth Engine with natural language — fetch datasets, run tasks, visualize in chat | TypeScript | cameronking4 | community | 🟦 commercial | 🟡 stale |
+| [LGND MCP Server](https://github.com/EarthLegend/developer_resources/tree/main/mcp) | Search Earth-embedding collections by text, image chip or coordinates, run inference to create new collections, and inspect chip/cell metadata | — | LGND AI | official | 🟦 commercial | — |
 | [Microsoft Planetary Computer Pro MCP Tools](https://techcommunity.microsoft.com/blog/microsoft-planetary-computer-blog/introducing-microsoft-planetary-computer-pro-model-context-protocol-tools-on-vs-/4522346) | 35+ tools connecting Planetary Computer + Planetary Computer Pro, shipped for VS Code / Copilot | — | Microsoft | official | 🟥 paywalled | ⚪ hosted |
 | [NASA-MCP-server](https://github.com/ProgramComputer/NASA-MCP-server) | Standardized interface to many NASA APIs incl. Earth observations & imagery | TypeScript | ProgramComputer | community | 🟩 open | 🟢 active |
 | [Planet MCP Server (beta)](https://community.planet.com/product-updates/beta-planet-mcp-server-for-ai-agents-6403) | Natural-language search/preview/order over the Planet Insights Platform Data API using existing Planet SDK creds | — | Planet Labs | official | 🟥 paywalled | ⚪ hosted |
@@ -162,6 +163,7 @@ _Access: 🟩 open 40 · 🟨 free 2 · 🟦 commercial 41 · 🟥 paywalled 6._
 | [fastgeoapi MCP server](https://github.com/geobeyond/fastgeoapi) | Optional integrated MCP server exposing a secured pygeoapi (OGC API) instance's endpoints as LLM tools, auto-generated from its OpenAPI spec | Python | Geobeyond | community | 🟩 open | 🟢 active |
 | [gdal-mcp](https://github.com/JordanGunn/gdal-mcp) | GDAL-style raster/vector workflows (Rasterio, GeoPandas, PyProj) — conversion, reprojection, COG, metadata | Python | JordanGunn / Wayfinder-Foundry | community | 🟩 open | 🟢 active |
 | [geoserver-mcp](https://github.com/mahdin75/geoserver-mcp) | Drives the GeoServer REST API — manage workspaces/layers/styles, CQL spatial queries, WMS/WFS access | Python | mahdin75 | community | 🟩 open | 🟢 active |
+| [Geospatial Power Pack (Kiro)](https://github.com/aws-samples/sample-geospatial-kiro-power-pack) | 19 modular MCP servers with a Kiro hub power — STAC/vector/geocoding connectors, CRS/geometry/raster/point-cloud/3D processing, H3/S2 indexing, and GeoAI embeddings & similarity search over open data on AWS | Python | AWS | official | 🟩 open | — |
 | [gis-mcp](https://github.com/mahdin75/gis-mcp) | Connects LLMs to core GIS libraries (Shapely, PyProj, GeoPandas, Rasterio, PySAL) for geometry, projections, raster & spatial stats | Python | mahdin75 | community | 🟩 open | 🟢 active |
 | [MapSmith](https://github.com/mapsmith-ai/MapSmith) | Deterministic GIS geoprocessing for AI agents — buffers, overlays, reprojection, zonal stats, terrain & hydrology (GeoPandas/DuckDB/Whitebox), with a verifiable provenance manifest on every output | Python | mapsmith-ai | community | 🟩 open | 🟢 active |
 
