@@ -31,7 +31,7 @@ Then ask Claude things like *"is there an MCP server for STAC imagery?"* or *"tr
 
 **91 servers tracked** across 11 categories.
 
-_Health checked 2026-09-03 (active = repo pushed within 12 months): 🟢 active 57 · 🟡 stale 15 · ⚪ hosted 15._
+_Health checked 2026-09-08 (active = repo pushed within 12 months): 🟢 active 60 · 🟡 stale 15 · ⚪ hosted 16._
 
 
 _Access: 🟩 open 41 · 🟨 free 2 · 🟦 commercial 42 · 🟥 paywalled 6._
@@ -115,7 +115,7 @@ _Access: 🟩 open 41 · 🟨 free 2 · 🟦 commercial 42 · 🟥 paywalled 6._
 | [copernicus-mcp](https://github.com/wb1016/copernicus-mcp) | Access ESA Copernicus OData API — search/download Sentinel-1/2/3/5P/6 imagery | Python | wb1016 | community | 🟩 open | 🟢 active |
 | [earthdata-mcp](https://github.com/nasa/earthdata-mcp) | LLM access to NASA Common Metadata Repository — discover/verify/access Earth science datasets | Python | NASA | official | 🟩 open | 🟢 active |
 | [google-earth-engine-mcp](https://github.com/cameronking4/google-earth-engine-mcp) | Query Google Earth Engine with natural language — fetch datasets, run tasks, visualize in chat | TypeScript | cameronking4 | community | 🟦 commercial | 🟡 stale |
-| [LGND MCP Server](https://github.com/EarthLegend/developer_resources/tree/main/mcp) | Search Earth-embedding collections by text, image chip or coordinates, run inference to create new collections, and inspect chip/cell metadata | — | LGND AI | official | 🟦 commercial | — |
+| [LGND MCP Server](https://github.com/EarthLegend/developer_resources/tree/main/mcp) | Search Earth-embedding collections by text, image chip or coordinates, run inference to create new collections, and inspect chip/cell metadata | — | LGND AI | official | 🟦 commercial | 🟢 active |
 | [Microsoft Planetary Computer Pro MCP Tools](https://techcommunity.microsoft.com/blog/microsoft-planetary-computer-blog/introducing-microsoft-planetary-computer-pro-model-context-protocol-tools-on-vs-/4522346) | 35+ tools connecting Planetary Computer + Planetary Computer Pro, shipped for VS Code / Copilot | — | Microsoft | official | 🟥 paywalled | ⚪ hosted |
 | [NASA-MCP-server](https://github.com/ProgramComputer/NASA-MCP-server) | Standardized interface to many NASA APIs incl. Earth observations & imagery | TypeScript | ProgramComputer | community | 🟩 open | 🟢 active |
 | [Planet MCP Server (beta)](https://community.planet.com/product-updates/beta-planet-mcp-server-for-ai-agents-6403) | Natural-language search/preview/order over the Planet Insights Platform Data API using existing Planet SDK creds | — | Planet Labs | official | 🟥 paywalled | ⚪ hosted |
@@ -124,7 +124,7 @@ _Access: 🟩 open 41 · 🟨 free 2 · 🟦 commercial 42 · 🟥 paywalled 6._
 | [stac-mcp](https://github.com/BnJam/stac-mcp) | Natural-language search of any STAC-compliant catalog (defaults to Planetary Computer) | Python | BnJam | community | 🟩 open | 🟢 active |
 | [Tilebox MCP Server](https://docs.tilebox.com/onboard-your-agent) | Create and manage geospatial datasets and distributed workflows, with docs search + CLI and Skills for coding agents | Python / Go | Tilebox | official | 🟦 commercial | ⚪ hosted |
 | [unicef-gee-mcp](https://github.com/tryolabs/unicef-gee-mcp) | Google Earth Engine access/analysis for UNICEF workflows | Python | Tryolabs (for UNICEF) | community | 🟦 commercial | 🟢 active |
-| [Vexcel MCP](https://vexceldata.com/platform/vexcel-mcp/) | Official Vexcel aerial & oblique imagery, DSM/DTM elevation, roof/solar/pool property metadata & post-disaster damage assessments for AI agents | — | Vexcel | official | 🟥 paywalled | — |
+| [Vexcel MCP](https://vexceldata.com/platform/vexcel-mcp/) | Official Vexcel aerial & oblique imagery, DSM/DTM elevation, roof/solar/pool property metadata & post-disaster damage assessments for AI agents | — | Vexcel | official | 🟥 paywalled | ⚪ hosted |
 
 ### Weather & climate
 
@@ -163,7 +163,7 @@ _Access: 🟩 open 41 · 🟨 free 2 · 🟦 commercial 42 · 🟥 paywalled 6._
 | [fastgeoapi MCP server](https://github.com/geobeyond/fastgeoapi) | Optional integrated MCP server exposing a secured pygeoapi (OGC API) instance's endpoints as LLM tools, auto-generated from its OpenAPI spec | Python | Geobeyond | community | 🟩 open | 🟢 active |
 | [gdal-mcp](https://github.com/JordanGunn/gdal-mcp) | GDAL-style raster/vector workflows (Rasterio, GeoPandas, PyProj) — conversion, reprojection, COG, metadata | Python | JordanGunn / Wayfinder-Foundry | community | 🟩 open | 🟢 active |
 | [geoserver-mcp](https://github.com/mahdin75/geoserver-mcp) | Drives the GeoServer REST API — manage workspaces/layers/styles, CQL spatial queries, WMS/WFS access | Python | mahdin75 | community | 🟩 open | 🟢 active |
-| [Geospatial Power Pack (Kiro)](https://github.com/aws-samples/sample-geospatial-kiro-power-pack) | 19 modular MCP servers with a Kiro hub power — STAC/vector/geocoding connectors, CRS/geometry/raster/point-cloud/3D processing, H3/S2 indexing, and GeoAI embeddings & similarity search over open data on AWS | Python | AWS | official | 🟩 open | — |
+| [Geospatial Power Pack (Kiro)](https://github.com/aws-samples/sample-geospatial-kiro-power-pack) | 19 modular MCP servers with a Kiro hub power — STAC/vector/geocoding connectors, CRS/geometry/raster/point-cloud/3D processing, H3/S2 indexing, and GeoAI embeddings & similarity search over open data on AWS | Python | AWS | official | 🟩 open | 🟢 active |
 | [gis-mcp](https://github.com/mahdin75/gis-mcp) | Connects LLMs to core GIS libraries (Shapely, PyProj, GeoPandas, Rasterio, PySAL) for geometry, projections, raster & spatial stats | Python | mahdin75 | community | 🟩 open | 🟢 active |
 | [MapSmith](https://github.com/mapsmith-ai/MapSmith) | Deterministic GIS geoprocessing for AI agents — buffers, overlays, reprojection, zonal stats, terrain & hydrology (GeoPandas/DuckDB/Whitebox), with a verifiable provenance manifest on every output | Python | mapsmith-ai | community | 🟩 open | 🟢 active |
 
@@ -188,7 +188,7 @@ _Access: 🟩 open 41 · 🟨 free 2 · 🟦 commercial 42 · 🟥 paywalled 6._
 
 | Server | Description | Lang | By | Type | Access | Health |
 | --- | --- | --- | --- | --- | --- | --- |
-| [ATTOM MCP](https://github.com/pipeworx-io/mcp-attom) | Premium US real-estate & property data from ATTOM Data Solutions — property details, valuations, ownership & sales history | TypeScript | Pipeworx (uses ATTOM API) | community | 🟥 paywalled | — |
+| [ATTOM MCP](https://github.com/pipeworx-io/mcp-attom) | Premium US real-estate & property data from ATTOM Data Solutions — property details, valuations, ownership & sales history | TypeScript | Pipeworx (uses ATTOM API) | community | 🟥 paywalled | 🟢 active |
 | [ipgeolocation-io-mcp](https://github.com/ipgeolocation/ipgeolocation-io-mcp) | Official ipgeolocation.io — IP geolocation, VPN/proxy detection, timezone, astronomy, ASN | — | IPGeolocation.io | official | 🟦 commercial | 🟢 active |
 | [IPinfo MCP Server](https://mcp.ipinfo.io/) | Hosted IPinfo MCP — country/continent (free), city/coords/timezone/postal (detailed) | — | IPinfo | official | 🟦 commercial | ⚪ hosted |
 | [LandRecords.us MCP Server](https://landrecords.us/documentation/mcp-server) | Query 160M+ US land parcels by attribute, address, radius, bbox or GeoJSON polygon — ownership, assessed value, land use, acreage & geometry | — | landrecords.us | official | 🟦 commercial | ⚪ hosted |
