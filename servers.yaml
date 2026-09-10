@@ -18,6 +18,9 @@
 #                underlying service/data can be used. open = open-source server on
 #                free/open data; free = free but not open source; commercial =
 #                has a usable free tier (freemium); paywalled = must pay to use.
+#   watch:       (optional, bool) true if not generally available yet (early
+#                access / waitlist). check_health.py marks it ⏳ pending and lists
+#                it as a watchlist reminder to re-check for GA.
 #
 # `official: true` is the strongest trust signal this catalog emits, so CI makes
 # you back it up rather than just assert it:
@@ -946,6 +949,18 @@ servers:
     tags: [catalog, schema-cards, cross-domain, dataset-discovery, geospatial]
     note: "also runs as a public, zero-auth hosted endpoint at https://api.scigantic.com/mcp (Streamable HTTP)"
     added: 2026-08-28
+  - name: GeoAI Tools
+    access: commercial
+    url: https://geoai.tools
+    description: "Hosted MCP platform bridging AI agents to ArcGIS Online/Enterprise data — 35 tools: service discovery, AI service guides, geocoding, spatial analysis, feature editing & server-side pipelines"
+    category: data_access
+    author: GeoAI Tools
+    official: true
+    transport: hosted
+    vendor_domain: geoai.tools
+    watch: true
+    note: "early access / waitlist — no public MCP endpoint yet; connects your ArcGIS data via OAuth. Also a CLI (@geoai-tools/cli on npm). Re-check for GA."
+    added: 2026-09-09
   - name: LGND MCP Server
     access: commercial
     url: https://github.com/EarthLegend/developer_resources/tree/main/mcp

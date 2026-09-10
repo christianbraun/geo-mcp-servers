@@ -11,6 +11,8 @@ Classification:
   dead        GitHub repo returns 404
   hosted      non-GitHub URL that responds (a hosted service — no push signal)
   unreachable non-GitHub URL that does not respond
+  pending     watch:true — early access / not GA yet (URL is not probed); the run
+              prints a watchlist reminder to re-check for a public endpoint
 
 Requires the `gh` CLI (authenticated) for GitHub repos. Re-run periodically;
 commit the refreshed health.json alongside README.md.
@@ -35,6 +37,8 @@ GH = re.compile(r"https?://github\.com/([^/]+)/([^/#?]+)")
 
 
 def classify(server: dict) -> dict:
+    if server.get("watch"):
+        return {"status": "pending"}  # not GA yet — surfaced on the watchlist
     url = server.get("url", "")
     m = GH.match(url)
     if m:
@@ -86,6 +90,11 @@ def main() -> int:
         print("\nNeeds attention:")
         for name, e in flagged:
             print(f"  [{e['status']}] {name}" + (f"  (pushed {e['pushed']})" if e.get("pushed") else ""))
+    watch = [s.get("name") for s in servers if s.get("watch")]
+    if watch:
+        print("\n⏳ Watchlist — early access / not GA; re-check for a public endpoint:")
+        for name in watch:
+            print(f"  {name}")
     return 0
 
 

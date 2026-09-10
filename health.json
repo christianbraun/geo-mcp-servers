@@ -1,6 +1,6 @@
 {
   "active_months": 12,
-  "checked": "2026-09-08",
+  "checked": "2026-09-09",
   "servers": {
     "https://community.planet.com/product-updates/beta-planet-mcp-server-for-ai-agents-6403": {
       "status": "hosted"
@@ -19,6 +19,9 @@
     },
     "https://felt.com/blog/introducing-felt-mcp-server": {
       "status": "hosted"
+    },
+    "https://geoai.tools": {
+      "status": "pending"
     },
     "https://github.com/BnJam/stac-mcp": {
       "pushed": "2026-08",
@@ -81,7 +84,7 @@
       "status": "active"
     },
     "https://github.com/Scigantic/scigantic-mcp": {
-      "pushed": "2026-08",
+      "pushed": "2026-09",
       "status": "active"
     },
     "https://github.com/Sir-Adrien-Claudington/qgis-mcp-1": {
@@ -133,7 +136,7 @@
       "status": "active"
     },
     "https://github.com/cyanheads/open-meteo-mcp-server": {
-      "pushed": "2026-08",
+      "pushed": "2026-09",
       "status": "active"
     },
     "https://github.com/cyanheads/openaq-mcp-server": {
@@ -189,7 +192,7 @@
       "status": "active"
     },
     "https://github.com/isdaniel/mcp_weather_server": {
-      "pushed": "2026-07",
+      "pushed": "2026-09",
       "status": "active"
     },
     "https://github.com/jagan-shanmugam/open-streetmap-mcp": {
@@ -253,7 +256,7 @@
       "status": "active"
     },
     "https://github.com/nkarasiak/qgis-mcp": {
-      "pushed": "2026-08",
+      "pushed": "2026-09",
       "status": "active"
     },
     "https://github.com/pipeworx-io/mcp-attom": {

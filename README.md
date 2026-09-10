@@ -14,7 +14,7 @@ The tables below are **generated** from [`servers.yaml`](servers.yaml) — the s
   ./.venv/bin/python scripts/generate_readme.py                          # regenerate tables
   ```
 
-> **Legend** — *Type* is `official` (published by the platform/data vendor) or `community` (independent). *Health* comes from [`health.json`](health.json), refreshed by `python scripts/check_health.py`: 🟢 **active** (repo pushed within 12 months) · 🟡 **stale** (real but dormant) · ⚪ **hosted** (a hosted service, no repo activity signal) · 🔴 **archived/dead**. *Access* is how the underlying service can be used: 🟩 **open** (open-source on free/open data) · 🟨 **free** (free, not open source) · 🟦 **commercial** (a commercial product with a usable free tier) · 🟥 **paywalled** (no free tier — payment required). A few entries carry a `note:` in `servers.yaml` flagging a URL still to be confirmed.
+> **Legend** — *Type* is `official` (published by the platform/data vendor) or `community` (independent). *Health* comes from [`health.json`](health.json), refreshed by `python scripts/check_health.py`: 🟢 **active** (repo pushed within 12 months) · 🟡 **stale** (real but dormant) · ⚪ **hosted** (a hosted service, no repo activity signal) · ⏳ **pending** (early access / not generally available yet — on the health-check watchlist) · 🔴 **archived/dead**. *Access* is how the underlying service can be used: 🟩 **open** (open-source on free/open data) · 🟨 **free** (free, not open source) · 🟦 **commercial** (a commercial product with a usable free tier) · 🟥 **paywalled** (no free tier — payment required). A few entries carry a `note:` in `servers.yaml` flagging a URL still to be confirmed.
 
 ## Use it as a Claude skill
 
@@ -29,12 +29,12 @@ Then ask Claude things like *"is there an MCP server for STAC imagery?"* or *"tr
 
 <!-- AUTOGEN:START -->
 
-**91 servers tracked** across 11 categories.
+**92 servers tracked** across 11 categories.
 
-_Health checked 2026-09-08 (active = repo pushed within 12 months): 🟢 active 60 · 🟡 stale 15 · ⚪ hosted 16._
+_Health checked 2026-09-09 (active = repo pushed within 12 months): 🟢 active 60 · 🟡 stale 15 · ⚪ hosted 16 · ⏳ pending 1._
 
 
-_Access: 🟩 open 41 · 🟨 free 2 · 🟦 commercial 42 · 🟥 paywalled 6._
+_Access: 🟩 open 41 · 🟨 free 2 · 🟦 commercial 43 · 🟥 paywalled 6._
 
 ### Categories
 
@@ -46,7 +46,7 @@ _Access: 🟩 open 41 · 🟨 free 2 · 🟦 commercial 42 · 🟥 paywalled 6._
 - [Weather & climate](#weather--climate) (11)
 - [Desktop & enterprise GIS (QGIS, ArcGIS)](#desktop--enterprise-gis-qgis-arcgis) (9)
 - [General GIS / geoprocessing toolkits](#general-gis--geoprocessing-toolkits) (6)
-- [Geospatial data access & catalogs](#geospatial-data-access--catalogs) (2)
+- [Geospatial data access & catalogs](#geospatial-data-access--catalogs) (3)
 - [Aviation & maritime tracking (ADS-B, AIS)](#aviation--maritime-tracking-ads-b-ais) (5)
 - [Other (IP geolocation, misc)](#other-ip-geolocation-misc) (7)
 
@@ -171,6 +171,7 @@ _Access: 🟩 open 41 · 🟨 free 2 · 🟦 commercial 42 · 🟥 paywalled 6._
 
 | Server | Description | Lang | By | Type | Access | Health |
 | --- | --- | --- | --- | --- | --- | --- |
+| [GeoAI Tools](https://geoai.tools) | Hosted MCP platform bridging AI agents to ArcGIS Online/Enterprise data — 35 tools: service discovery, AI service guides, geocoding, spatial analysis, feature editing & server-side pipelines | — | GeoAI Tools | official | 🟦 commercial | ⏳ pending |
 | [GeoLens MCP](https://github.com/geolens-io/geolens/tree/main/mcp) | Read-only access to a self-hosted GeoLens instance: catalog search, dataset schemas, GeoJSON features, saved maps & sandboxed read-only SQL | Python | GeoLens | official | 🟦 commercial | 🟢 active |
 | [Scigantic MCP](https://github.com/Scigantic/scigantic-mcp) | Cross-domain scientific dataset catalog and schema cards (genomics, proteomics, imaging, and a large Earth-observation/geospatial footprint), with per-dataset access snippets for agents | Python | Scigantic | official | 🟨 free | 🟢 active |
 

@@ -36,6 +36,7 @@ HEALTH_LABELS = {
     "dead": "🔴 dead",
     "unreachable": "🔴 unreachable",
     "hosted": "⚪ hosted",
+    "pending": "⏳ pending",
 }
 
 
@@ -92,7 +93,7 @@ def health_summary(health: dict, servers: list[dict]) -> str:
         st = hservers.get(s.get("url", ""), {}).get("status")
         if st:
             counts[st] = counts.get(st, 0) + 1
-    order = ["active", "stale", "hosted", "archived", "dead", "unreachable"]
+    order = ["active", "stale", "hosted", "pending", "archived", "dead", "unreachable"]
     parts = [f"{HEALTH_LABELS.get(k, k)} {counts[k]}" for k in order if counts.get(k)]
     months = health.get("active_months", 12)
     return (f"\n_Health checked {health.get('checked', '?')} "
