@@ -31,10 +31,10 @@ Then ask Claude things like *"is there an MCP server for STAC imagery?"* or *"tr
 
 **92 servers tracked** across 11 categories.
 
-_Health checked 2026-09-09 (active = repo pushed within 12 months): 🟢 active 60 · 🟡 stale 15 · ⚪ hosted 16 · ⏳ pending 1._
+_Health checked 2026-09-11 (active = repo pushed within 12 months): 🟢 active 60 · 🟡 stale 15 · ⚪ hosted 16 · ⏳ pending 1._
 
 
-_Access: 🟩 open 41 · 🟨 free 2 · 🟦 commercial 43 · 🟥 paywalled 6._
+_Access: 🟩 open 42 · 🟨 free 2 · 🟦 commercial 42 · 🟥 paywalled 6._
 
 ### Categories
 
@@ -172,7 +172,7 @@ _Access: 🟩 open 41 · 🟨 free 2 · 🟦 commercial 43 · 🟥 paywalled 6._
 | Server | Description | Lang | By | Type | Access | Health |
 | --- | --- | --- | --- | --- | --- | --- |
 | [GeoAI Tools](https://geoai.tools) | Hosted MCP platform bridging AI agents to ArcGIS Online/Enterprise data — 35 tools: service discovery, AI service guides, geocoding, spatial analysis, feature editing & server-side pipelines | — | GeoAI Tools | official | 🟦 commercial | ⏳ pending |
-| [GeoLens MCP](https://github.com/geolens-io/geolens/tree/main/mcp) | Read-only access to a self-hosted GeoLens instance: catalog search, dataset schemas, GeoJSON features, saved maps & sandboxed read-only SQL | Python | GeoLens | official | 🟦 commercial | 🟢 active |
+| [GeoLens MCP](https://github.com/geolens-io/geolens) | Read-only access to a self-hosted GeoLens instance: catalog search, dataset schemas, GeoJSON features, saved maps & sandboxed read-only SQL | Python | GeoLens | official | 🟩 open | 🟢 active |
 | [Scigantic MCP](https://github.com/Scigantic/scigantic-mcp) | Cross-domain scientific dataset catalog and schema cards (genomics, proteomics, imaging, and a large Earth-observation/geospatial footprint), with per-dataset access snippets for agents | Python | Scigantic | official | 🟨 free | 🟢 active |
 
 ### Aviation & maritime tracking (ADS-B, AIS)

@@ -1,6 +1,6 @@
 {
   "active_months": 12,
-  "checked": "2026-09-09",
+  "checked": "2026-09-11",
   "servers": {
     "https://community.planet.com/product-updates/beta-planet-mcp-server-for-ai-agents-6403": {
       "status": "hosted"
@@ -116,7 +116,7 @@
       "status": "active"
     },
     "https://github.com/cablate/mcp-google-map": {
-      "pushed": "2026-08",
+      "pushed": "2026-09",
       "status": "active"
     },
     "https://github.com/cameronking4/google-earth-engine-mcp": {
@@ -179,7 +179,7 @@
       "pushed": "2026-09",
       "status": "active"
     },
-    "https://github.com/geolens-io/geolens/tree/main/mcp": {
+    "https://github.com/geolens-io/geolens": {
       "pushed": "2026-09",
       "status": "active"
     },
@@ -300,7 +300,7 @@
       "status": "active"
     },
     "https://github.com/tomtom-international/tomtom-traffic-analytics-mcp": {
-      "pushed": "2026-08",
+      "pushed": "2026-09",
       "status": "active"
     },
     "https://github.com/tools-mcp/vessel-traffic-mcp": {

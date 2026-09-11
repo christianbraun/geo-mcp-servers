@@ -925,8 +925,8 @@ servers:
     tags: [timezone, sun, coordinates]
     added: 2026-08-05
   - name: GeoLens MCP
-    access: commercial
-    url: https://github.com/geolens-io/geolens/tree/main/mcp
+    access: open
+    url: https://github.com/geolens-io/geolens
     description: "Read-only access to a self-hosted GeoLens instance: catalog search, dataset schemas, GeoJSON features, saved maps & sandboxed read-only SQL"
     category: data_access
     author: GeoLens
